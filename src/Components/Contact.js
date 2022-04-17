@@ -97,7 +97,7 @@ class Contact extends Component {
 
               <div id="message-warning"> هی خطا زدی پسر</div>
               <div id="message-success">
-                <i className="fa fa-check"></i>Your message was sent, thank you!
+                <i className="fa fa-check"></i>پیام شما ارسال شد.سپاس گزاریم
                 <br />
               </div>
             </div>

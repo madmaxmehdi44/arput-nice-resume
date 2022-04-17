@@ -76,7 +76,7 @@ class Header extends Component {
                   <i className="fa fa-book"></i>پروژه ها
                 </a>
                 <a href={arputBlog} className="button btn github-btn">
-                  <i className="fa fa-github"></i>بلاگ آرپوت
+                  <i className="fa fa-flag"></i>بلاگ آرپوت
                 </a>
               </ul>
             </Fade>

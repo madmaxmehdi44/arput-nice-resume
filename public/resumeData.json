@@ -1,15 +1,15 @@
 {
   "main": {
-    "name":"تیم توسعه ی نرمافزار آرپوت",
+    "name":"تیم توسعه ی نرم افزاری آرپوت",
     "description":"تیم توسعه نرم افزاری آرپوت بر اساس تمرکز بر روی تکنولوژی واقعیت افزوده دست به تولید و توسعه در این مسیر دارد ",
     "image":"profilepic.jpg",
     "bio":"تیم آرپوت تمرکز بر روی تکنولوژی واقعیت افزوده دارد ",
-    "contactmessage":"تماس با ما جهت مشاوره و رمایه گذاری و تولید ایده",
+    "contactmessage":"تماس با ما جهت مشاوره, سرمایه گذاری, تولید و ایده",
     "email": "info@arput.com",
     "phone": "0917-045-6200",
     "github":"https://github.com/arput/arput-nice-resume",
     "arputBlog":"https://arput-template-frontend.vercel.app",
-    "project":"https://github.com/arput/arput-nice-resume",
+    "project":"#portfolio",
     "address":{
       "street":"شهرک آرین",
       "city":"شیراز",
@@ -17,7 +17,7 @@
       "zip": "774-2234"
     },
     "website": "http://www.arput.com",
-    "resumedownload":"http://arput.com",
+    "resumedownload":"http://arput.com/resume/resume.zip",
     "social":[
       {
         "name":"facebook",
@@ -47,38 +47,37 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"در اینجا می توانید یک نوشته کوتاه از مهارت های خود برای نشان دادن به کارفرمایان ایجاد کنید    ",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2017",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
+        "school":"دانشگاه",
+        "degree":"کارشناسی ارشد ",
+        "graduated":"آوریل 2017",
+        "description":"مراحل ساخت نرم افزار یا چرخه حیات توسعه نرم افزار چیست ؟      "},
+
       {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
+        "school":"مدرسه شماره 1 شاید کالج؟        ",
+        "degree":"101 چی خوندی        ",
         "graduated":"March 2013",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      }
+        "description":"مراحل ساخت نرم افزار یا چرخه حیات توسعه نرم افزار چیست ؟      "}
+
     ],
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2018 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
-      },
+        "company":"استودیو طراحی عالی",
+        "title":"ارشد UX God ",
+        "years":"April 2022 - Present",
+        "description":"مراحل ساخت نرم افزار یا چرخه حیات توسعه نرم افزار چیست ؟      "},
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
+        "company":"استودیو فوق العاده باحال",
+        "title":"ارشد عیب یابی ",
         "years":"March 2017 - February 2018",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "description":"مراحل ساخت نرم افزار یا چرخه حیات توسعه نرم افزار چیست ؟      "
       }
     ],
     "skills":[
       {
-        "name":"Python",
+        "name":"پایتون",
         "level":"60%"
       },
       {
@@ -98,11 +97,11 @@
         "level":"80%"
       },
       {
-        "name":"Swift",
+        "name":"آندروید",
         "level":"50%"
       },
       {
-        "name":"JAVA",
+        "name":"جاوا",
         "level":"80%"
       }
     ]
@@ -110,76 +109,76 @@
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"انواع واقعیت افزوده در اپلیکیشن‌ها",
+        "category":"انواع واقعیت افزوده در اپلیکیشن‌هاانواع واقعیت افزوده در اپلیکیشن‌ها",
         "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://www.arput.com"
       },
       {
-        "title":"Fury Fighting Gear",
+        "title":"واقعیت مجازی (VR)",
         "category":"(offline now) A fighting gear company I started",
         "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"http://www.arput.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"مبتنی بر مکان (Location Based)",
+        "category":"Website مبتنی بر مکان (Location Based)",
         "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"http://www.arput.com/github.io"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
+        "title":"کاربردهای واقعیت افزوده و مجازی        ",
+        "category":"کاربردهای واقعیت افزوده و واقعیت مجازی        ",
         "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"http://www.arput.com"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "title":"انواع روش‌های مشاهده محتوا",
+        "category":"(MVP Only) انواع روش‌های مشاهده محتوا",
         "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":"http://www.arput.com"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"واقعیت افزوده",
+        "category":"My Travel واقعیت افزوده",
         "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://www.arput.com"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title":"انواع واقعیت افزوده در اپلیکیشن‌ها",
+        "category":"انواع واقعیت افزوده در اپلیکیشن‌هاانواع واقعیت افزوده در اپلیکیشن‌ها",
         "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://www.arput.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"واقعیت مجازی (VR)",
+        "category":"(offline now) A fighting gear company I started",
         "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"http://www.arput.com"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"مبتنی بر مکان (Location Based)",
+        "category":"Website مبتنی بر مکان (Location Based)",
         "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"http://www.arput.com/github.io"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
+        "title":"کاربردهای واقعیت افزوده و مجازی        ",
+        "category":"کاربردهای واقعیت افزوده و واقعیت مجازی        ",
         "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"http://www.arput.com"
       },
       {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "title":"انواع روش‌های مشاهده محتوا",
+        "category":"(MVP Only) انواع روش‌های مشاهده محتوا",
         "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
+        "url":"http://www.arput.com"
       },
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"واقعیت افزوده",
+        "category":"My Travel واقعیت افزوده",
         "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://www.arput.com"
       }
     ]
   }
