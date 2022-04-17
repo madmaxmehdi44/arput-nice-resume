@@ -26,13 +26,13 @@ class Header extends Component {
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
+                خانه
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#about">
-                About
+                درباره ما
               </a>
             </li>
 
@@ -44,13 +44,13 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                نمونه کارها
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#contact">
-                Contact
+                تماس با ما
               </a>
             </li>
           </ul>
