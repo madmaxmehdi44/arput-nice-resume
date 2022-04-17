@@ -12,10 +12,10 @@ class Header extends Component {
     const description = this.props.data.description;
 
     return (
-      <header id="home">
+      <header id="home" dir="rtl">
         <ParticlesBg type="circle" bg={true} />
 
-        <nav id="nav-wrap">
+        <nav id="nav-wrap" >
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
             Show navigation
           </a>
@@ -38,10 +38,14 @@ class Header extends Component {
 
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+                 رزومه تیم
               </a>
             </li>
-
+            <li>
+              <a className="smoothscroll" href="https://arput-template-frontend.vercel.app/">
+                ویدئو بلاگ
+              </a>
+            </li>
             <li>
               <a className="smoothscroll" href="#portfolio">
                 نمونه کارها
@@ -68,10 +72,10 @@ class Header extends Component {
             <Fade bottom duration={2000}>
               <ul className="social">
                 <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
+                  <i className="fa fa-book"></i>پروژه ها
                 </a>
                 <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
+                  <i className="fa fa-github"></i>گیت هاب آرپوت
                 </a>
               </ul>
             </Fade>
