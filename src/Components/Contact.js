@@ -19,7 +19,7 @@ class Contact extends Component {
           <div className="row section-head">
             <div className="two columns header-col">
               <h1>
-                <span>Get In Touch.</span>
+                <span>با ما در تماس باشید</span>
               </h1>
             </div>
 
@@ -36,7 +36,7 @@ class Contact extends Component {
                 <fieldset>
                   <div>
                     <label htmlFor="contactName">
-                      Name <span className="required">*</span>
+                      نام <span className="required">*</span>
                     </label>
                     <input
                       type="text"
@@ -50,7 +50,7 @@ class Contact extends Component {
 
                   <div>
                     <label htmlFor="contactEmail">
-                      Email <span className="required">*</span>
+                      پست الکترونیک <span className="required">*</span>
                     </label>
                     <input
                       type="text"
@@ -63,7 +63,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <label htmlFor="contactSubject">Subject</label>
+                    <label htmlFor="contactSubject">عنوان</label>
                     <input
                       type="text"
                       defaultValue=""
@@ -76,7 +76,7 @@ class Contact extends Component {
 
                   <div>
                     <label htmlFor="contactMessage">
-                      Message <span className="required">*</span>
+                      پیام <span className="required">*</span>
                     </label>
                     <textarea
                       cols="50"
@@ -87,7 +87,7 @@ class Contact extends Component {
                   </div>
 
                   <div>
-                    <button className="submit">Submit</button>
+                    <button className="submit">ارسال</button>
                     <span id="image-loader">
                       <img alt="" src="images/loader.gif" />
                     </span>
@@ -95,7 +95,7 @@ class Contact extends Component {
                 </fieldset>
               </form>
 
-              <div id="message-warning"> Error boy</div>
+              <div id="message-warning"> هی خطا زدی پسر</div>
               <div id="message-success">
                 <i className="fa fa-check"></i>Your message was sent, thank you!
                 <br />
@@ -106,7 +106,7 @@ class Contact extends Component {
           <Slide right duration={1000}>
             <aside className="four columns footer-widgets">
               <div className="widget widget_contact">
-                <h4>Address and Phone</h4>
+                <h4>آدرس و شماره تماس</h4>
                 <p className="address">
                   {name}
                   <br />
@@ -118,31 +118,31 @@ class Contact extends Component {
               </div>
 
               <div className="widget widget_tweets">
-                <h4 className="widget-title">Latest Tweets</h4>
+                <h4 className="widget-title">آخرین پست</h4>
                 <ul id="twitter">
                   <li>
                     <span>
-                      This is Photoshop's version of Lorem Ipsum. Proin gravida
-                      nibh vel velit auctor aliquet. Aenean sollicitudin, lorem
-                      quis bibendum auctor, nisi elit consequat ipsum
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
+                      تتتننسیت  تشسححخ یتنسینت تدئیم ئئئوو وئشسویئوش مکئ وشس.ئش یمنش 
+                      شسی شی شش شبیبب قفغغا تاببا اد 
+                      <a href="./">http://arput.com/CGIrdxIlI3</a>
                     </span>
                     <b>
-                      <a href="./">2 Days Ago</a>
+                      <a href="./">2 روز پیش</a>
                     </b>
                   </li>
                   <li>
                     <span>
-                      Sed ut perspiciatis unde omnis iste natus error sit
-                      voluptatem accusantium doloremque laudantium, totam rem
-                      aperiam, eaque ipsa quae ab illo inventore veritatis et
-                      quasi
-                      <a href="./">http://t.co/CGIrdxIlI3</a>
+                      تتتننسیت  تشسححخ یتنسینت تدئیم ئئئوو وئشسویئوش مکئ وشس.ئش یمنش 
+                      شسی شی شش شبیبب قفغغا تاببا اد 
+                      <a href="./">http://arput.com/CGIrdxIlI3</a>
                     </span>
                     <b>
-                      <a href="./">3 Days Ago</a>
+                      <a href="./">2 روز پیش</a>
                     </b>
                   </li>
+
+
+                  
                 </ul>
               </div>
             </aside>

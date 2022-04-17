@@ -36,6 +36,7 @@ header {
    
    text-align: center;
    overflow: hidden;
+   direction: rtl;
 }
 
 /* vertically center banner section */
@@ -1021,4 +1022,5 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .github-btn{
    background-color: #34495e !important;
+
 }

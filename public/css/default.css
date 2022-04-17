@@ -50,6 +50,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section, summary,
 time, mark, audio, video {
+   direction: rtl;
    margin: 0;
    padding: 0;
    border: 0;
@@ -574,7 +575,7 @@ legend {
 label span,
 legend span {
 	color: #8B9798;
-   font: 14px/24px 'Vazir', sans-serif;
+   font: 'Vazir';
 }
 
 input[type="checkbox"],

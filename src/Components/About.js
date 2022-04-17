@@ -17,24 +17,26 @@ class About extends Component {
     const resumeDownload = this.props.data.resumedownload;
 
     return (
-      <section id="about">
+      <section id="about" dir="rtl">
         <Fade duration={1000}>
           <div className="row">
-            <div className="three columns">
-              <img
-                className="profile-pic"
-                src={profilepic}
-                alt="Nordic Giant Profile Pic"
-              />
-            </div>
+
             <div className="nine columns main-col">
               <h2>درباره ما</h2>
 
               <p>{bio}</p>
-              <div className="row">
+              <div className="row" >
+              <div className="columns download">
+                  <p>
+                    <a href={resumeDownload} className="button">
+                      <i className="fa fa-download"></i>دانلود رزومه
+                    </a>
+                  </p>
+                </div>
+                
                 <div className="columns contact-details">
                   <h2>جزئیات تماس</h2>
-                  <p className="address">
+                  <p className="address" >
                     <span>{name}</span>
                     <br />
                     <span>
@@ -48,14 +50,17 @@ class About extends Component {
                     <span>{email}</span>
                   </p>
                 </div>
-                <div className="columns download">
-                  <p>
-                    <a href={resumeDownload} className="button">
-                      <i className="fa fa-download"></i>Download Resume
-                    </a>
-                  </p>
-                </div>
+
               </div>
+
+              
+            </div>
+            <div className="three columns" >
+              <img
+                className="profile-pic"
+                src={profilepic}
+                alt="ARPut"
+              />
             </div>
           </div>
         </Fade>

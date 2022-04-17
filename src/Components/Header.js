@@ -13,7 +13,7 @@ class Header extends Component {
     const description = this.props.data.description;
 
     return (
-      <header id="home" dir="rtl">
+      <header id="home" >
         <ParticlesBg type="circle" bg={true} />
 
         <nav id="nav-wrap" >
@@ -43,7 +43,7 @@ class Header extends Component {
               </a>
             </li>
             <li>
-              <a className="" href="https://arput-template-frontend.vercel.app">
+              <a className="" href="#resume">
                 ویدئو بلاگ
               </a>
             </li>
@@ -76,7 +76,7 @@ class Header extends Component {
                   <i className="fa fa-book"></i>پروژه ها
                 </a>
                 <a href={arputBlog} className="button btn github-btn">
-                  <i className="fa fa-blog"></i>بلاگ آرپوت
+                  <i className="fa fa-github"></i>بلاگ آرپوت
                 </a>
               </ul>
             </Fade>
