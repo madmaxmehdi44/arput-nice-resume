@@ -7,6 +7,7 @@ class Header extends Component {
     if (!this.props.data) return null;
 
     const project = this.props.data.project;
+    const arputBlog = this.props.data.arputBlog;
     const github = this.props.data.github;
     const name = this.props.data.name;
     const description = this.props.data.description;
@@ -42,7 +43,7 @@ class Header extends Component {
               </a>
             </li>
             <li>
-              <a className="smoothscroll" href="https://arput-template-frontend.vercel.app/">
+              <a className="" href="https://arput-template-frontend.vercel.app">
                 ویدئو بلاگ
               </a>
             </li>
@@ -74,8 +75,8 @@ class Header extends Component {
                 <a href={project} className="button btn project-btn">
                   <i className="fa fa-book"></i>پروژه ها
                 </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>گیت هاب آرپوت
+                <a href={arputBlog} className="button btn github-btn">
+                  <i className="fa fa-blog"></i>بلاگ آرپوت
                 </a>
               </ul>
             </Fade>

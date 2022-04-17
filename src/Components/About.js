@@ -28,12 +28,12 @@ class About extends Component {
               />
             </div>
             <div className="nine columns main-col">
-              <h2>About Me</h2>
+              <h2>درباره ما</h2>
 
               <p>{bio}</p>
               <div className="row">
                 <div className="columns contact-details">
-                  <h2>Contact Details</h2>
+                  <h2>جزئیات تماس</h2>
                   <p className="address">
                     <span>{name}</span>
                     <br />
