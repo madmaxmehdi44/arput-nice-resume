@@ -1,26 +1,26 @@
 {
   "main": {
-    "name":"Arput Landing Page",
+    "name":"تیم توسعه ی نرمافزار آرپوت",
     "description":"تیم توسعه نرم افزاری آرپوت بر اساس تمرکز بر روی تکنولوژی واقعیت افزوده دست به تولید و توسعه در این مسیر دارد ",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
+    "bio":"تیم آرپوت تمرکز بر روی تکنولوژی واقعیت افزوده دارد ",
+    "contactmessage":"تماس با ما جهت مشاوره و رمایه گذاری و تولید ایده",
+    "email": "info@arput.com",
+    "phone": "0917-045-6200",
     "github":"https://github.com/arput/arput-nice-resume",
     "project":"https://github.com/arput/arput-nice-resume",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "street":"شهرک آرین",
+      "city":"شیراز",
+      "state":"فارس",
+      "zip": "774-2234"
     },
     "website": "http://www.arput.com",
     "resumedownload":"http://arput.com",
     "social":[
       {
         "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/arput/arput-nice-resume",
         "className":"fa fa-facebook"
       },
       {
