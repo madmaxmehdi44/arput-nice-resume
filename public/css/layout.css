@@ -263,7 +263,7 @@ ul#nav li.current a { color: #fe6928; }
    border-bottom: 1px solid #E8E8E8;
 }
 #resume .info {
-   font: 16px/24px 'vazir-italic', serif;
+   font: 16px/24px 'Sahel', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
@@ -418,7 +418,7 @@ ul#nav li.current a { color: #fe6928; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'vazir-semibold', sans-serif;
+   font: 15px/24px 'Vazir', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -496,7 +496,7 @@ ul#nav li.current a { color: #fe6928; }
    color: #fff;
 }
 .portfolio-item .portfolio-item-meta p {
-   font: 12px/18px 'vazir-light', sans-serif;
+   font: 12px/18px 'Vazir', sans-serif;
    color: #c6c7c7;
    margin-bottom: 0;
 }
@@ -532,7 +532,7 @@ ul#nav li.current a { color: #fe6928; }
    margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
-   font: 11px/21px 'vazir-light', sans-serif;
+   font: 11px/21px 'Vazir', sans-serif;
    color: #A1A1A1;
    text-transform: uppercase;
    letter-spacing: 2px;
@@ -632,7 +632,7 @@ call-to-action .button {
    color: #0D0D0D;
 }
 #call-to-action p span {
-	font-family: 'vazir-semibold', sans-serif;
+	font-family: 'Vazir', sans-serif;
 	color: #D8D8D8;
 }
 
@@ -825,7 +825,7 @@ call-to-action .button {
    margin-bottom: 6px;
 }
 #contact p.lead {
-   font: 18px/36px 'vazir-light', sans-serif;
+   font: 18px/36px 'Vazir', sans-serif;
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }

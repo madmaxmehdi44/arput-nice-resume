@@ -179,14 +179,15 @@
 ================================================================================ */
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 
-   @font-face {
-   font-family: 'vazir-semibold';
-   src: url('fonts/vazir/Vazir-Semibold-webfont.svg#open_vazirsemibold') format('svg');
-   }
-
-   @font-face {
-   font-family: 'vazir-bold';
-   src: url('fonts/vazir/Vazir-Bold-webfont.svg#open_sansbold') format('svg');
-   }
-
+     @font-face {
+          font-family: Vazir-Bold;
+          src: url('fonts/vazir/Vazir-Bold.eot');
+          src: url('fonts/vazir/Vazir-Bold.eot?#iefix') format('embedded-opentype'),
+               url('fonts/vazir/Vazir-Bold.woff2') format('woff2'),
+               url('fonts/vazir/Vazir-Bold.woff') format('woff'),
+               url('fonts/vazir/Vazir-Bold.ttf') format('truetype');
+          font-weight: bold;
+          font-style: bold;
+      }
+     }
 }

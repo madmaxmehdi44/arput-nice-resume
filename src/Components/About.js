@@ -17,11 +17,11 @@ class About extends Component {
     const resumeDownload = this.props.data.resumedownload;
 
     return (
-      <section id="about" dir="rtl">
+      <section id="about" >
         <Fade duration={1000}>
           <div className="row">
 
-            <div className="nine columns main-col">
+            <div className="ten columns main-col">
               <h2>درباره ما</h2>
 
               <p>{bio}</p>
@@ -55,7 +55,7 @@ class About extends Component {
 
               
             </div>
-            <div className="three columns" >
+            <div className="two columns" >
               <img
                 className="profile-pic"
                 src={profilepic}

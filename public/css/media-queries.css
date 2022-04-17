@@ -14,7 +14,7 @@
     /* header styles
    ------------------------------------------------------------------ */
    header .banner-text h1 {
-      font: 80px/1.1em 'vazir-bold', sans-serif;
+      font: 80px/1.1em 'Vazir', sans-serif;
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
@@ -29,11 +29,11 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'vazir-bold', sans-serif;
+      font: 70px/1.1em 'Vazir', sans-serif;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
-      font: 17px/1.9em 'vazir-regular', serif;
+      font: 17px/1.9em 'Vazir', serif;
       width: 80%;
    }
    header .banner-text hr {
@@ -42,7 +42,7 @@
    }
    /* nav-wrap */
    #nav-wrap {
-      font: 11px 'vazir-bold', sans-serif;
+      font: 11px 'Vazir', sans-serif;
       letter-spacing: 1.5px;
    }
 
@@ -87,7 +87,7 @@
       font-size: 66px;
       line-height: 66px;
    }
-   #contact .section-head p.lead { font: 17px/33px vazir-light, sans-serif; }
+   #contact .section-head p.lead { font:Vazir; }
 
 
 }
@@ -100,7 +100,7 @@
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap {
-      font: 12px 'vazir-bold', sans-serif;
+      font: 12px 'Vazir', sans-serif;
       background: transparent !important;
       letter-spacing: 1.5px;  
       width: auto;
@@ -191,9 +191,9 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 68px/1.1em 'vazir-bold', sans-serif; }
+   header .banner-text h1 {font: 80px/1.1em 'Vazir', sans-serif; }
    header .banner-text h3 {
-      font: 16px/1.9em 'vazir-regular', serif;
+      font:'Vazir';
       width: 85%;
    }
    header .banner-text hr {
@@ -351,7 +351,7 @@
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
    header .banner-text h1 {
-      font: 40px/1.1em 'vazir-bold', sans-serif;      
+      font: 40px/1.1em 'Vazir', sans-serif;      
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
